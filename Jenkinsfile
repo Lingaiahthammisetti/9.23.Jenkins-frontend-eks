@@ -54,7 +54,7 @@ pipeline {
                     # helm install frontend .
 
                     # Install or upgrade the Helm release
-                    helm upgrade --install frontend . --namespace expense
+                    helm upgrade --install frontend . -n expense
                 """
             }
         }
